@@ -1,10 +1,10 @@
 {
   "name": "fizzbuzz",
   "version": "1.0.0",
-  "description": "��#\u0000 \u0000F\u0000i\u0000z\u0000z\u0000b\u0000u\u0000z\u0000z\u0000\r\u0000 \u0000",
+  "description": "Fizzbuzz",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./node_modules/jest/bin/jest.js"
   },
   "repository": {
     "type": "git",
