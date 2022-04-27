@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/martinGM05/Fizzbuzz/issues"
   },
-  "homepage": "https://github.com/martinGM05/Fizzbuzz#readme"
+  "homepage": "https://github.com/martinGM05/Fizzbuzz#readme",
+  "dependencies": {
+    "jest": "^26.0.0"
+  }
 }
