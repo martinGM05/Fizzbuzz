@@ -16,17 +16,17 @@ const userNameExplorersByMission = ExplorerService.getExplorersUsernamesByMissio
 console.log(userNameExplorersByMission);
 
 const explorer1 = {name: "Explorer1", score: 1};
-const result1 = FizzbuzzService.applyValidationInExplorer(explorer1); // {name: "Explorer1", score: 1, trick: 1} 
+const result1 = FizzbuzzService.applyValidationInExplorer(explorer1);
 console.log(result1);
 
 const explorer3 = {name: "Explorer3", score: 3};
-const result2 = FizzbuzzService.applyValidationInExplorer(explorer3); // {name: "Explorer3", score: 3, trick: "FIZZ"}
+const result2 = FizzbuzzService.applyValidationInExplorer(explorer3);
 console.log(result2);
 
 const explorer5 = {name: "Explorer5", score: 5};
-const result3 = FizzbuzzService.applyValidationInExplorer(explorer5); // {name: "Explorer5", score: 5, trick: "BUZZ"}
+const result3 = FizzbuzzService.applyValidationInExplorer(explorer5);
 console.log(result3);
 
 const explorer15 = {name: "Explorer15", score: 15};
-const result4 = FizzbuzzService.applyValidationInExplorer(explorer15); // {name: "Explorer15", score: 15, trick: "FIZZBUZZ"}
+const result4 = FizzbuzzService.applyValidationInExplorer(explorer15);
 console.log(result4);

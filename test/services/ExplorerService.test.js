@@ -1,7 +1,7 @@
 const Reader = require("../../lib/utils/Reader");
 const ExplorerService = require("../../lib/services/ExplorerService");
 
-const explorers = Reader.readJsonFile("explorers.json");
+const explorers = Reader.readJsonFile("test/data/explorer.test.json");
 
 describe("Tests for ExplorerService", () => {
     test("Request 1: Filter by mission", () => {
