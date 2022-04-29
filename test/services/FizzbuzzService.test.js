@@ -27,22 +27,22 @@ describe("1) Test for Validation in Explorer Score", () => {
 describe("2) Test for Validation in Number", () => {
     test("Request 1: Apply when number value is 1", () => {
         const number = 1;
-        const result = FizzbuzzService.applyValidationInNumber(number)
-        expect(result).toBe(1)
-    })
+        const result = FizzbuzzService.applyValidationInNumber(number);
+        expect(result).toBe(1);
+    });
     test("Request 2: Apply when number value is 3", () => {
         const number = 3;
-        const result = FizzbuzzService.applyValidationInNumber(number)
-        expect(result).toBe("FIZZ")
-    })
+        const result = FizzbuzzService.applyValidationInNumber(number);
+        expect(result).toBe("FIZZ");
+    });
     test("Request 3: Apply when number value is 5", () => {
         const number = 5;
-        const result = FizzbuzzService.applyValidationInNumber(number)
-        expect(result).toBe("BUZZ")
-    })
+        const result = FizzbuzzService.applyValidationInNumber(number);
+        expect(result).toBe("BUZZ");
+    });
     test("Request 3: Apply when number value is 15", () => {
         const number = 15;
-        const result = FizzbuzzService.applyValidationInNumber(number)
-        expect(result).toBe("FIZZBUZZ")
-    })
-})
+        const result = FizzbuzzService.applyValidationInNumber(number);
+        expect(result).toBe("FIZZBUZZ");
+    });
+});
