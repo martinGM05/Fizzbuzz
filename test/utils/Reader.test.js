@@ -5,4 +5,4 @@ describe("Tests for ExplorerService", () => {
         const explorers = Reader.readJsonFile("test/data/explorer.test.json");
         expect(explorers).not.toBeNull();
     });
-})
+});
