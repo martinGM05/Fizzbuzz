@@ -5,6 +5,8 @@
 - [Express](https://www.npmjs.com/package/express)
 - [Jest](https://jestjs.io/)
 - [Eslint](https://eslint.org/) 
+- [dotenv](https://www.npmjs.com/package/dotenv)
+- [node-telegram-bot-api](https://www.npmjs.com/package/node-telegram-bot-api)
 
 If you want to download the project don't forget to run **`npm i`** to install the necessary dependencies
 
@@ -14,7 +16,8 @@ There are some scripts in the package.json to speed up some commands:
     "test": "node ./node_modules/jest/bin/jest.js",
     "linter": "node ./node_modules/eslint/bin/eslint.js .",
     "linter-fix": "node ./node_modules/eslint/bin/eslint.js . --fix",
-    "server": "node ./lib/server.js"
+    "server": "node ./lib/server.js",
+    "bot": "node ./lib/bot.js"
 },
 ```
 
@@ -22,6 +25,7 @@ There are some scripts in the package.json to speed up some commands:
 - `npm run linter` = To examine the code according to the rules imposed in the .eslintrc.js file
 - `npm run linter-fix` = To resolve errors according to the rules
 - `npm run server` = To stand up the server
+- `npm run bot` = To run telegram bot
 
 ## The logic distribution of this api is like this
 
